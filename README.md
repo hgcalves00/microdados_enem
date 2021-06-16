@@ -4,6 +4,7 @@ leitura_csv_no_R.R
 usei esse script pra gerar um dataframe com os 0 e 1's gerados pela correção das provas de todos os alunos, de acordo com a cor da prova. 
 como exemplo, deixei as cores das provas de ciências da natureza.
 o objetivo desse código é obter a matriz de 0 e 1's que a teoria de resposta ao item pede. 
+a planilha utilizada é a que vem com o download dos microdados no site do INEP.
 
 leitura_txt_prova.py
 supondo aqui que tenhamos a prova de 2015 em txt, é possível acessar a planilha a partir dos dados encontrados pela função de busca! 
