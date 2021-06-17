@@ -91,7 +91,7 @@ fwrite(LARANJA_ADAP_CN.f, file = "LARANJA_ADAP_CN.csv")
 
 VERDE_ADAP_CN.NA<-mult.choice(respostas_CN_VERDE_ADAP[,2:46],as.numeric(gabarito_CN_VERDE_ADAP[,2:46]))
 VERDE_ADAP_CN.f<-ifelse(is.na(VERDE_ADAP_CN.NA)==T,0,VERDE_ADAP_CN.NA)
-fwrite(VERDE_ADAP_CN.f, file = "C:/Users/Hellen/Desktop/ENEMY/estudos R/VERDE_ADAP_CN.csv")
+fwrite(VERDE_ADAP_CN.f, file = "VERDE_ADAP_CN.csv")
 
 AZUL_REAP_CN.NA<-mult.choice(respostas_CN_AZUL_REAP[,2:46],as.numeric(gabarito_CN_AZUL_REAP[,2:46]))
 AZUL_REAP_CN.f<-ifelse(is.na(AZUL_REAP_CN.NA)==T,0,AZUL_REAP_CN.NA)
