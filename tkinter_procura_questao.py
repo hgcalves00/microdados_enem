@@ -17,10 +17,7 @@ class TelaPython:
         self.janela = sg.Window("microdados Enem").layout(layout)
 
     def Iniciar(self):
-        #dados necessarios
-        #funçoes principais
-        #enfiando dados
-        #
+    
         def procuraPDF(ano_prova, procura): 
             pdf = fitz.open('caderno_enem_{}.pdf'.format(ano_prova))
             paginas = pdf.pageCount
